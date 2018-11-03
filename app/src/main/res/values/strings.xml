@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Movies Stage 1</string>
+    <string name="settings_menu_btn">Settings</string>
+    <string name="refresh">Refresh</string>
+    <string name="share">Share</string>
+    <string name="title_activity_details">Movie Details</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_sort_order_default" translatable="false">popularity.desc</string>
+    <string name="pref_sort_label">Sort By</string>
+    <string name="pref_sort_label_most_popular">Most popular</string>
+    <string name="pref_sort_label_highest_rated">Highest rated</string>
+    <string name="pref_sort_key" translatable="false">sortBy</string>
+    <string name="pref_sort_by_popular" translatable="false">popularity.desc</string>
+    <string name="pref_sort_by_rating" translatable="false">vote_average.desc</string>
+</resources>
