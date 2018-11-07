@@ -6,8 +6,13 @@ import retrofit.http.Query;
 
 
 public interface GetMovieService {
+    String Top_Rated_Path ="top_rated" , Popular_Path = "popular";
 
-    @GET("/3/discover/movie")
-    public Call<MovieDetails> getPopularMovies(@Query("sort_by") String sortBy, @Query("api_key") String apiKey);
+
+    @GET(Popular_Path)
+    public Call<MovieDetails> getPopularMovies(@Query("api_key") String API_KEY);
+
+    @GET(Top_Rated_Path)
+    public Call<MovieDetails> getTopRatedMovies(@Query("api_key") String API_KEY);
 
 }
